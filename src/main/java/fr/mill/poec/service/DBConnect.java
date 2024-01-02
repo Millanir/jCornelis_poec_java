@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnect {
 
-    private static final String url = "jdbc:mysql://localhost:3306/db_instant-faking-java";
+    private static final String url = "jdbc:mysql://localhost:3306/db_france";
 
     private static final String user = "root";
 
