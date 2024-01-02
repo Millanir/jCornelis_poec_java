@@ -39,23 +39,23 @@ public class DepartmentRepository extends AbstractRepository<Department> {
 
     }
 
-    private static void findDepartmentByRegion(){
-
-    }
+//    private static void findDepartmentByRegion(){
+//
+//    }
 //    private static void findDepartmentByRegion(Region region) {
 //        int regionID = region.getId();
 //        System.out.println(regionID);
 //
 //    }
-//    private Department findDepartmentByRegion(Region region) {
-//        try {
-//            String query = "SELECT * FROM `department` WHERE `region_id` = ?; ";
-//            PreparedStatement stmt = connection.prepareStatement(query);
-//            stmt.setInt(1, region.getId());
-//            stmt.executeQuery();
-//        } catch (SQLException e) {
-//            System.out.println("Something went wrong during update of a Category : " + e.getMessage());
-//        }
-//        return null;
-//    }
+    public Department findDepartmentByRegion(Region region) {
+        try {
+            String query = "SELECT * FROM `department` WHERE `region_id` = ?; ";
+            PreparedStatement stmt = connection.prepareStatement(query);
+            stmt.setInt(1, Math.toIntExact(region.getId()));
+            stmt.executeQuery();
+        } catch (SQLException e) {
+            System.out.println("Something went wrong during update of a Category : " + e.getMessage());
+        }
+        return null;
+    }
 }
