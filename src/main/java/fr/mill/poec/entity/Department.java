@@ -13,6 +13,6 @@ public class Department implements EntityInterface{
 
     private Long id;
     private int regionId;
-    private int code;
+    private String code;
     private String name;
 }

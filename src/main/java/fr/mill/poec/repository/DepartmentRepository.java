@@ -29,8 +29,8 @@ public class DepartmentRepository extends AbstractRepository<Department> {
         try {
             department.setId(rs.getLong("id"));
             department.setName(rs.getString("name"));
-            department.setCode(rs.getInt("region_id"));
-            department.setCode(rs.getInt("code"));
+            department.setRegionId(rs.getInt("region_id"));
+            department.setCode(rs.getString("code"));
         } catch (SQLException e) {
             System.out.println("Something goes wrong while creating a Department object : " + e.getMessage());
             department = null;

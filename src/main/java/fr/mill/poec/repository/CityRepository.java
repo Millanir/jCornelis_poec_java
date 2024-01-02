@@ -28,8 +28,8 @@ public class CityRepository extends AbstractRepository<City> {
         try {
             city.setId(rs.getLong("id"));
             city.setName(rs.getString("name"));
-            city.setCode(rs.getInt("siren"));
-            city.setCode(rs.getInt("population"));
+            city.setSiren(rs.getInt("siren"));
+            city.setPopulation(rs.getInt("population"));
             city.setCode(rs.getInt("code"));
         } catch (SQLException e) {
             System.out.println("Something goes wrong while creating a City object : " + e.getMessage());
