@@ -1,4 +1,4 @@
-package fr.mill.peoc;
+package fr.mill.poec;
 
 public class Main {
     public static void main(String[] args) {

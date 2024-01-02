@@ -1,4 +1,4 @@
-package fr.mill.peoc.service;
+package fr.mill.poec.service;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

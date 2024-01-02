@@ -1,4 +1,4 @@
-package fr.mill.peoc.dao;
+package fr.mill.poec.dao;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package fr.mill.peoc.entity;
+package fr.mill.poec.entity;
 
 public interface EntityInterface {
 

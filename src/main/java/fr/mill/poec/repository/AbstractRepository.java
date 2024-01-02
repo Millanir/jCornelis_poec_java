@@ -1,7 +1,7 @@
-package fr.mill.peoc.repository;
+package fr.mill.poec.repository;
 
-import fr.mill.peoc.entity.EntityInterface;
-import fr.mill.peoc.service.DBConnect;
+import fr.mill.poec.entity.EntityInterface;
+import fr.mill.poec.service.DBConnect;
 
 import java.sql.*;
 import java.text.SimpleDateFormat;
