@@ -14,7 +14,7 @@ public class MainDepartment {
 //        System.out.println(depRep.findAll());
         depRep.findDepartmentByRegion(reg);
         //je m'excuse mais je me rappelle plus des findby vu en cours et je ne retrouve plus de support sur lequel m'appuyer
-        //je deviennent fou
+        //je deviennent fous
 
     }
 
